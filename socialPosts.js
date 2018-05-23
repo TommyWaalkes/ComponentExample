@@ -1,7 +1,11 @@
 "use strict";
 {
     let socialPosts = {
-        template:`<post ng-repeat="p in $ctrl.posts" title="p.title" body="p.body"></post>` ,
+        template:`<post ng-repeat="p in $ctrl.posts" title="p.title" body="p.body"></post>
+            <post-form posts="$ctrl.posts"> </post-form>
+        ` ,
+//Post( string[] posts){ }
+
 
         controller: function(){
             let vm = this;

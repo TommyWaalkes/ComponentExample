@@ -1,0 +1,7 @@
+<input ng-model="title" />
+{{title}}
+<input ng-model="body" />
+{{body}}
+<button ng-click="$ctrl.PushNewPost(title, body)"> Add New Post</button>
+
+{{$ctrl.posts[0]}}

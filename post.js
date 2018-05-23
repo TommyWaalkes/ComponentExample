@@ -6,11 +6,11 @@
             body: "<"
         },
         template: `<h2> {{$ctrl.title}} </h2> 
-            <p> {{$ctrl.body}}</p>`,
+            <p> {{$ctrl.body}}</p>
+            
+            <h2> hello world</h2>`,
         controller: function(){
-            let vm = this;
-            //vm.title ="Slim Shady drops a new Album";
-            //vm.body = "asldgkuhasldkjg,hzlk,fhaskejf,hs.dzkfjhaz.dkfjaleskjfasd.kjf,hasdljshadflkjasdsvd;lkjvd"
+            let vm = this;  
         }
 
     }
